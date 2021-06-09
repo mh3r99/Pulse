@@ -1,0 +1,267 @@
+// 991
+@media (max-width: 991px) {
+  .promo {
+    padding: 21px 15px 50px;
+  }
+  .advantages {
+    padding: 50px 15px;
+    &__item {
+      max-width: 230px;
+    }
+  }
+  .consultation {
+    padding: 80px 15px 72px;
+  }
+  .carousel {
+    padding: 81px 15px 0;
+    &__inner {
+      max-width: 605px;
+    }
+    .slick-prev,
+    .slick-next {
+      img {
+        width: 22px;
+      }
+    }
+  }
+  .catalog {
+    padding: 0 15px 70px;
+    &__content {
+      justify-content: space-around;
+    }
+  }
+  .feed {
+    padding: 0 15px 50px;
+  }
+}
+
+// 767
+@media (max-width: 767px) {
+  .header {
+    &__logo {
+      width: 200px;
+    }
+  }
+  .promo {
+    min-height: 590px;
+    &__wrapper {
+      margin-top: 40px;
+      align-items: center;
+    }
+    &__header {
+      margin-bottom: 0;
+      font-size: 35px;
+    }
+    &__subheader {
+      margin-top: 0;
+      font-size: 16px;
+    }
+    &__icons {
+      margin-top: 52px;
+    }
+    &__link {
+      font-size: 14px;
+    }
+  }
+  .advantages {
+    &__wrapper {
+      margin-top: 55px;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    &__item {
+      margin-bottom: 15px;
+      max-width: 230px;
+    }
+    &__icon--animated {
+      animation: none;
+    }
+  }
+  .consultation {
+    min-height: 630px;
+  }
+  .title_left {
+    font-size: 30px;
+  }
+  .carousel {
+    padding: 81px 15px 0;
+    &__inner {
+      max-width: 605px;
+    }
+    .slick-prev,
+    .slick-next {
+      img {
+        width: 22px;
+      }
+    }
+  }
+  .catalog {
+    padding: 0 15px 40px;
+  }
+  .feed {
+    &__text {
+      margin-left: 20px;
+      padding-right: 0;
+    }
+  }
+  .footer {
+    &__info {
+      padding: 25px 40px 30px;
+      width: 355px;
+      height: 200px;
+    }
+    &__addr {
+      margin-bottom: 30px;
+    }
+    &__phone {
+      margin-bottom: 30px;
+    }
+    &__social {
+      &-item {
+        width: 30px;
+        height: 30px;
+        img {
+          height: 14px;
+        }
+      }
+    }
+  }
+}
+
+// 575
+@media (max-width: 575px) {
+  .promo {
+    padding: 9px 9px 15px;
+    &__wrapper {
+      margin-top: 40px;
+      align-items: center;
+    }
+    &__header {
+      font-size: 27px;
+      text-align: center;
+    }
+    &__subheader {
+      font-size: 14px;
+      text-align: center;
+    }
+    &__icons {
+      margin-top: 40px;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      width: 320px;
+    }
+    &__icon {
+      margin-bottom: 10px;
+    }
+    &__link {
+      font-size: 14px;
+    }
+  }
+  .button_main {
+    margin-top: 40px;
+  }
+  .header {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    &__logo {
+      width: 190px;
+    }
+    &__contacts {
+      margin-top: 10px;
+    }
+    &__official span {
+      font-size: 14px;
+    }
+    &__phone {
+      font-size: 14px;
+    }
+  }
+  .title {
+    font-size: 27px;
+  }
+  .advantages {
+    padding: 40px 15px;
+    &__wrapper {
+      margin-top: 50px;
+    }
+    &__item {
+      margin-bottom: 30px;
+      max-width: 100%;
+    }
+    &__subtitle {
+      margin-top: 20px;
+    }
+    &__descr {
+      margin-top: 15px;
+      padding: 0 5px;
+    }
+  }
+  .consultation {
+    padding: 50px 15px 42px;
+    min-height: 570px;
+    &__descr {
+      font-size: 16px;
+    }
+  }
+  .title_left {
+    font-size: 25px;
+  }
+  .feed-form {
+    width: 100%;
+  }
+  .catalog {
+    &__tabs {
+      flex-wrap: wrap;
+    }
+    &__tab {
+      margin-bottom: 20px;
+    }
+    &__content {
+      margin-top: 50px;
+    }
+  }
+  .feed {
+    &__item {
+      flex-direction: column;
+      margin-top: 60px;
+    }
+    &__img {
+      margin: 0 auto 15px;
+    }
+    &__text {
+      margin-left: 0;
+    }
+  }
+  .footer {
+    height: 570px;
+    &__info {
+      padding: 15px 0px 30px;
+      width: 100%;
+      height: 180px;
+    }
+    iframe {
+      height: 570px;
+    }
+  }
+  .pageup {
+    bottom: 40px;
+    right: 20px;
+    width: 25px;
+    height: 25px;
+    img {
+      width: 100%;
+    }
+  }
+  .overlay {
+    padding: 0 15px;
+    .modal {
+      max-width: 300px;
+      &__close {
+        top: -35px;
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+  }
+}
